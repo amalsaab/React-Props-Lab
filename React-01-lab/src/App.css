@@ -1,0 +1,61 @@
+body{
+  background-color: rgba(168, 168, 181, 0.29) ;
+  
+}
+h1{
+  text-align: center;
+  color: rgb(168, 168, 181) ;
+}
+/* .btn{
+  background-color: rgb(66, 189, 148);
+  border-radius: 10px;
+  padding: 10px 30px;
+  margin: 10px;
+  border: none;
+  box-shadow: 2px 2px 10px 0px;
+} */
+.Programer {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+
+}
+.Programer-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.card {
+  background-color: rgba(255, 255, 255, 0.97);
+  padding: 3rem;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.237);
+  width: 15rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+p{
+  font-weight: 600;
+
+}
+.Service-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 50%;
+}
+.Service-container{
+  display: flex;
+  justify-content: center;
+}
+.Services {
+  text-align: center;
+}
+.Employers {
+  text-align: center;
+}
+.COLOR {
+  background-color: rgba(128, 0, 128, 0.285);
+}
